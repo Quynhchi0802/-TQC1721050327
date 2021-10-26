@@ -10,7 +10,7 @@ using ĐTQC1721050327.Models;
 
 namespace ĐTQC1721050327.Controllers
 {
-    public class PeopleController : Controller
+    public class PersonController : Controller
     {
         private ĐTQCDBContext db = new ĐTQCDBContext();
 

@@ -17,7 +17,7 @@ namespace ĐTQC1721050327.Controllers
         // GET: Students
         public ActionResult Index()
         {
-            return View(db.Persons.ToList());
+            return View(db.Students.ToList());
         }
 
         // GET: Students/Details/5
